@@ -25,7 +25,14 @@
         {
             var userinput = document.getElementById("userInput").value;
             
+            if (userinput === 'sue')
+                {
+                    userinput = 'stupid';
+                }
+            
             document.getElementById('response').innerHTML = '<br>Hello ' + userinput + '!';
+            
+            
         }
 
     </script>
