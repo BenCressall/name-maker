@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <title>
+    
+    </title>
+    
+    <body>
+    
+        <p>Enter your name below</p>
+    
+        <input id="userInput" type="text">
+        
+        <button onclick="namedisplay()">GO!</button>
+        
+        <div id ="response"></div>
+    </body>
+    
+    <script>
+    
+    function namedisplay()
+        {
+            var userinput = document.getElementById("userInput").value;
+            
+            document.getElementById('response').innerHTML = '<br>Hello ' + userinput + '!';
+        }
+
+    </script>
